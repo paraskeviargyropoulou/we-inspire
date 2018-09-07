@@ -6,6 +6,10 @@ body {
     box-sizing: border-box;
 }
 
+.footer{
+  background-color: #e6e6e6;
+}
+
 form.example button {
     float: left;
     width: 20%;
@@ -27,6 +31,15 @@ form.example::after {
     clear: both;
     display: table;
 }
+#mySidenav{
+  position: fixed;
+}
+#menu{
+  transform: rotate(-90deg);
+  color: black;
+  font-weight: bold;
+  margin: 16px 0 0px -12px;
+}
 #mySidenav a {
     position: absolute;
     left: -80px;
@@ -44,22 +57,22 @@ form.example::after {
 }
 
 #about {
-    top: 20px;
+    top: 60px;
     background-color: black;
 }
 
 #blog {
-    top: 80px;
+    top: 120px;
     background-color: black;
 }
 
 #projects {
-    top: 140px;
+    top: 180px;
     background-color: black;
 }
 
 #contact {
-    top: 200px;
+    top: 240px;
     background-color: black;
 }
 
@@ -126,7 +139,7 @@ body {
 .side {
     -ms-flex: 30%; /* IE10 */
     flex: 30%;
-    background-color: #f1f1f1;
+    background-color: #e6e6e6;
     padding: 20px;
 }
 
@@ -140,10 +153,10 @@ body {
 
 /* Fake image, just for this example */
 .fakeimg {
-    background-color: #bba;
+
     width: 100%;
-    padding: 20px;
-}
+    padding: 35px;
+
 
 /* Footer */
 .footer {
